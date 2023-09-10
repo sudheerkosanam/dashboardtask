@@ -1,0 +1,128 @@
+.main-container{
+  height: 100vh;
+}
+.sidebar{
+  background-color: #003F63;
+  color: #E2F5FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.sidebar ul li{
+  list-style: none;
+}
+.panel-section{
+  background-color: #EEEEEE;
+}
+.data-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:2rem;
+}
+.card{
+  width: 15.625rem;
+  height: 15.625rem;
+  background-color: #FFFFFF;
+  border: 2px solid #003F63;
+}
+.card p{
+  margin: auto;
+  font-size: 2rem;
+  color: #003F63;
+}
+.logo{
+  font-size: 2.5rem;
+  text-align: start;
+  margin-bottom: 0.5rem;
+}
+.play-icon{
+  width: 3rem;
+  height: 3rem;
+  margin-left: 2rem;
+}
+.nav-icon{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1rem 0rem;
+}
+.text-initial{
+  text-align: start;
+}
+.profile-icons{
+  display: flex;
+  justify-content: center;
+}
+.profile-icons .nav-icon{
+  margin-right: 1.5rem;
+}
+.filter-options{
+  display: flex;
+  justify-content: space-between;
+}
+.searchbar{
+  width: 20rem;
+  border-radius: 7px;
+}
+.filters{
+  width: 12rem;
+  border-radius: 7px;
+}
+.btn-neworder{
+  border-radius: 7px;
+  color: #FFFFFF;
+  background-color: #003F63;
+}
+.brand-Forum-Heading{
+  text-align: initial;
+  background-color: #003F63;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+.brand-Forum-Heading p{
+  padding: 5px 10px;
+  margin: 0rem;
+}
+#brand1 .row{
+   text-align: initial;
+   color: #003F63;
+}
+#brand1 .form-label{
+  color: #003F63;
+  text-transform: uppercase;
+}
+.nav-tabs .nav-link.active {
+  color: #003F63;
+  font-weight: 600;
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: underline;
+}
+.nav-tabs .nav-link {
+  color: #003F63;
+}
+.dots:after {
+  content: '\2807';
+  font-size: 1rem;
+}
+.btn-cancel{
+   background-color: #C3D6DE;
+   color: #003F63;
+   border-radius: 0.4375rem;
+   border: 0px solid;
+   width: 8rem;
+}
+.btn-save{
+  background-color: #003F63;
+  color: #FFFFFF;
+  border-radius: 0.4375rem;
+  border: 0px solid;
+  width: 8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.control-btns{
+  display: flex;
+  justify-content: right;
+}
